@@ -1,4 +1,109 @@
+   
+
+
+ @font-face   /*Téléchargement de Raleway par le navigateur*/
+    {
+    font-family: 'Raleway';
+    src: url('font/Raleway-VariableFont_wght.ttf'), url('font/Raleway-Italic-VariableFont_wght.ttf'),
+    url('font/static/Raleway-Black.ttf'), url('font/static/Raleway-BlackItalic.ttf');
+    }
+
+* {
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+
+
+/* réglage générale */
 ul
 {
     list-style-type: none;
 }
+
+a 
+{
+    text-decoration:none;
+    color: black;
+}
+
+
+.fas
+{
+    color:#0065fc;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1300px;
+        
+}
+
+h1
+{
+    font-size:30px;
+    font-weight: 1000;
+}
+
+/* mise en place header/navbar */
+
+#navbar
+{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between ;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: 10px;    
+    
+}
+
+#logo
+{
+    display: flex;
+    width: 100px;
+   
+}
+
+#navbar ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+#barre_deco
+{
+    border-top: 3px solid ;
+    border-color:#0065FC ;
+    width: 150px;    
+    padding-top: 23px;
+    padding-left: 28px;
+    padding-right: 20px;
+    
+}
+
+
+#nav_activ
+{
+    padding-left: 60px;
+    padding-right: 70px;
+}
+
+/* partie titre et filtres  */
+
+
+#entete
+{
+    display:flex ;
+    flex-direction: column;
+}
+
+
+ 
+
+
