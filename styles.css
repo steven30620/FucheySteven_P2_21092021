@@ -1,7 +1,4 @@
-   
-
-
- @font-face   /*Téléchargement de Raleway par le navigateur*/
+@font-face   /*Téléchargement de Raleway par le navigateur*/
     {
     font-family: 'Raleway';
     src: url('font/Raleway-VariableFont_wght.ttf'), url('font/Raleway-Italic-VariableFont_wght.ttf'),
@@ -23,7 +20,7 @@ ul
 a 
 {
     text-decoration:none;
-    color: black;
+    color: inherit;
 }
 
 
@@ -58,7 +55,7 @@ h2
     font-size: 20px;
 }
 
-emp
+strong
 {
     font-weight: bolder;
 }
@@ -87,19 +84,31 @@ emp
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 30px;
+    
+    
+}
+#nav_droite
+{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
     
     
 }
 
 #barre_deco
 {
-    border-top: 3px solid ;
-    border-color:#0065FC ;
-    width: 150px;    
-    padding-top: 23px;
-    padding-left: 28px;
-    padding-right: 20px;
-    
+    align-items: center;
+    width: 500px;
+    color: #0065fc;
+    border-top: 4px solid #0065fc;
+    padding: 23px 20px 0px 20px;
+}
+
+#nav_droite a:hover
+{
+    border-bottom: 2px solid #0065fc;
 }
 
 
@@ -107,7 +116,28 @@ emp
 {
     padding-left: 60px;
     padding-right: 70px;
+    border-top: 4px transparent #0065fc;
+    
 }
+
+#nav_droite #inscrire
+{
+    color: #0065fc;
+    font-weight: 700;
+}
+
+    
+} 
+#nav
+{
+    border-top: 3px solid ;
+    border-color:#0065FC ;
+    color: #0065fc;
+    width: 50px;    
+    padding-top: 23px;
+    
+} 
+
 
 /* partie titre  */
 
@@ -173,6 +203,7 @@ button
     background-color: #0065FC;
     color: white;
     font-family: "Raleway","verdana";
+    font-weight: 900;
     padding-left: 20px;
     padding-right: 20px;
     border-top-right-radius: 15px;
@@ -238,10 +269,7 @@ button
 #hebergement_populaires
 {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-right: 60px;
-    margin-left: 80px;
+    ;
 }
 
 #info500 p
@@ -324,12 +352,30 @@ button
     box-shadow: 0px 0px 16px #0000002e;
 }
 
+.notation 
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2px;
+}
+.notation .fas
+{
+    
+    margin-right: 3px;
+}
+
+.cartes:hover
+{
+transform: scale(1.03); 
+}
+
 .images_hebergements {
-    object-fit: cover;
-    width: 240px;
     height: 120px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .backtitre h3
@@ -392,8 +438,8 @@ button
 {
     display: flex;
     flex-direction:column ;
-    align-items: center ;
-    justify-content: top;
+    align-items:  ;
+    
     background: #f2f2f2;
     border-radius:20px;
     height: 590px;
@@ -402,7 +448,3 @@ button
 }
 
 /* Activité à marseille */
-
-
-
-
