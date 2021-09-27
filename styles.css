@@ -5,7 +5,7 @@
     {
     font-family: 'Raleway';
     src: url('font/Raleway-VariableFont_wght.ttf'), url('font/Raleway-Italic-VariableFont_wght.ttf'),
-    url('font/static/Raleway-Black.ttf'), url('font/static/Raleway-BlackItalic.ttf');
+    url('font/static/Raleway-Black.ttf'),url('font/static/Raleway-Bold.ttf') ,url('font/static/Raleway-BlackItalic.ttf');
     }
 
 * {
@@ -32,21 +32,36 @@ a
     color:#0065fc;
 }
 
+#gris
+{
+    color:#c9c5c5
+}
+
 body
 {
     display: flex;
     flex-direction: column;
     margin: auto;
-    max-width: 1300px;
+    max-width: 1380px;
         
 }
 
 h1
 {
     font-size:30px;
-    font-weight: 1000;
+    font-family: 'Raleway';
+    font-weight: 900;
 }
 
+h2
+{
+    font-size: 20px;
+}
+
+emp
+{
+    font-weight: bolder;
+}
 /* mise en place header/navbar */
 
 #navbar
@@ -94,7 +109,7 @@ h1
     padding-right: 70px;
 }
 
-/* partie titre et filtres  */
+/* partie titre  */
 
 
 #entete
@@ -103,7 +118,217 @@ h1
     flex-direction: column;
 }
 
+.titre h1
+{
+   margin-left: 5px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+}
 
+.titre p
+{
+    margin-top:5px;
+    margin-bottom: 17px;
+}
  
+/* partie search bar */
 
 
+
+.search_bar
+{
+    display:flex;
+    
+}
+
+.icon_near
+{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    padding-left: 20px;
+    background-color: #f2f2f2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.icon_near .fas
+{
+    color: black;
+}
+
+.imput_section
+{
+    border: 1.5px solid #f2f2f2;
+    padding-right: 40px;
+}
+
+::placeholder
+{
+padding-left:20px ;
+}
+
+button
+{
+    background-color: #0065FC;
+    color: white;
+    font-family: "Raleway","verdana";
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border:1.5px solid #0065FC;
+    color: white;
+}
+
+/* partie filtres */
+
+#filtres_section
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.titre_filtres
+{
+    margin-right: 15px;
+}
+
+#filtres
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+
+}
+
+.selection_filtre
+{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    border:2px solid #d9d9d9;
+    border-radius: 2rem;
+    
+
+}
+
+.filtre_icon
+{
+    background:#DEEBFF ;
+    border:#DEEBFF 20px solid;
+    border-radius: 100%;
+    margin-right: 10px;    
+}
+
+#filtres p
+{
+    margin-right: 20px;
+    font-weight: 900;
+}
+
+
+/* section info et partie hebergement marseille */
+
+#info500 p
+{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#info500 .fas
+{
+    margin-right: 15px;
+    align-items: center;
+
+}
+
+#hebergements
+{
+    display: flex;
+    flex-direction:column ;
+    align-items: flex-start;
+    background: #f2f2f2;
+    border-radius:20px ;
+    margin-right: 460px;
+}
+
+#hebergements h2 
+{
+    font-size: 25px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+#hebergements h4
+{
+    font-size: 20px;
+    padding-left: 30px;
+     
+}
+
+#carte_gauche
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+#carte_gauche_haut 
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    
+  
+}
+
+#carte_gauche_bas
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    
+}
+
+.cartes
+{
+    margin-right: 40px;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 5px 5px 10px 5px;
+    background-color: white;
+    width: 236px;
+    height: 180px;    
+    box-shadow: 0px 0px 16px #0000002e;
+}
+
+.images_hebergements {
+    object-fit: cover;
+    width: 240px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.backtitre h3
+{
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.backtitre p
+{
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
