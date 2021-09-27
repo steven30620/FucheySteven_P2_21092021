@@ -235,6 +235,15 @@ button
 
 /* section info et partie hebergement marseille */
 
+#hebergement_populaires
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 60px;
+    margin-left: 80px;
+}
+
 #info500 p
 {
     display: flex;
@@ -254,9 +263,12 @@ button
     display: flex;
     flex-direction:column ;
     align-items: flex-start;
+    justify-content: space-between;
     background: #f2f2f2;
     border-radius:20px ;
-    margin-right: 460px;
+    margin-bottom: 60px;
+    margin-right: 70px;
+    
 }
 
 #hebergements h2 
@@ -332,3 +344,65 @@ button
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
+/* partie populaires */
+
+#titre_populaires
+{
+    display: flex;
+    flex-direction:row ;
+    align-items: center ;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+.cartes_pop
+{
+    border: 3px solid white;
+    border-radius: 20px;
+    display: flex;
+    background-color: white;
+    padding: 5px 80px 5px 5px;
+    width: 280px;
+    height: 130px;
+    margin-bottom: 23px;    
+    box-shadow: 0px 0px 16px #0000002e; 
+     
+}
+
+.backtitre
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.images_pop
+{
+    object-fit: cover;
+    width: 120px;
+    height: 130px;
+    border-top-left-radius: 10px;     
+    border-bottom-left-radius: 10px;
+    
+}
+#populaires
+{
+    display: flex;
+    flex-direction:column ;
+    align-items: center ;
+    justify-content: top;
+    background: #f2f2f2;
+    border-radius:20px;
+    height: 590px;
+    padding-left: 50px ;
+    padding-right: 50px;
+}
+
+/* Activité à marseille */
+
+
+
+
