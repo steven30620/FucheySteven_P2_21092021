@@ -228,7 +228,7 @@ header nav {
 
 
 h3 {
-    font-size: small;
+    font-size: medium;
     font-style: italic;
     font-weight: normal;
 }
@@ -712,6 +712,11 @@ footer h2 {
         margin-left: 0px;
     }
 
+    .titre_trouvez{
+        padding-right: 30px; 
+        font-size: x-large;
+    }
+
     .headersignup {
          margin-right: 10px;
     }
@@ -729,8 +734,13 @@ footer h2 {
         margin-left: 0px;
     }
 
+    .titre_les_plus_populaires{
+        padding-left: 0px;
+    }   
+
     .box_populaire_carte {
          max-width: 270px;
+         padding-left: 15px;
     }
 
     .box_carte,
@@ -794,7 +804,7 @@ footer h2 {
     }
 
     .photo_hebergement {
-        width: 320px;
+        width: 350px;
         margin-left: 2px;
     }
 
@@ -933,8 +943,16 @@ footer h2 {
         margin-left: 50px;
     }
 
+    .search-bar{
+        padding-left: 0px;
+       
+    }
     .titre_activites {
         margin-left: 12px;
+    }
+
+    .type-search{
+        width: 250px;
     }
 
     .sinscrire {
@@ -960,21 +978,26 @@ footer h2 {
         padding-left: 0px;
     }
 
-    .box_populaire_carte {
-        max-width: 260px;
-        padding-right: 20px;
-    }
-
     #container_hebergements_populaires {
-        padding-right: 0px;
+        width:500px;
+        }
+
+    .box_populaire_carte {
+        max-width: 380px;
+        padding-right: 1px;
+       
+        
     }
+   
 
     .box_carte {
-        max-width: 300px;
+        max-width: 350px;
+    
     }
-
+    
     .photo_hebergement {
         width: 265px;
+        
     }
 
     #hebergements_a_marseille {
@@ -1014,38 +1037,3 @@ footer h2 {
 
 }
 
-@media all and (max-width : 320px) {
-    footer {
-        max-width: 320px;
-    }
-
-    #container_hebergements_populaires {
-        max-width: 320px;
-        padding-left: 18px;
-        padding-right: 10px;
-    }
-
-    #hebergements_a_marseille {
-        padding-left: 8px;
-        padding-right: 5px;
-    }
-
-    #Activités_à_Marseille {
-        margin-left: 40px;
-    }
-
-    .titre_activites {
-        margin-left: 0px;
-    }
-
-    .titre_principal,
-    #search-section {
-        margin-left: -10px;
-    }
-
-    .box_populaire_carte {
-        padding-right: 10px;
-    }
-
-  }
-}
