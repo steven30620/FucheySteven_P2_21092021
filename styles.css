@@ -84,7 +84,7 @@ a:hover {
 header nav a {
     margin-left: 20px;
 }
-header nav a:hover{
+header nav .headernavlink1:hover,header nav .headernavlink2:hover{
     border-top: 3px solid #0065FC;
     padding-top: 30px;
 }
@@ -101,6 +101,10 @@ header nav {
     color: #0065FC;
     font-weight: bold;
     margin-right: 10px;
+}
+.headersignup a:hover{
+    text-decoration: none;
+    border-top: none;
 }
 
 ::placeholder{
@@ -195,14 +199,14 @@ header nav {
 
 .circle-icon-filter {
     width: 50px;
-    height: 50px;
+    height: 51.5px;
     background-color: #DEEBFF;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 2px;
+    top: 1.5px;
     left: 1px;
 }
 
@@ -217,7 +221,7 @@ header nav {
     align-items: center;
     border: 2px solid #d9d9d9;
     padding: 0px 25px 0px 65px;
-    border-radius: 25px;
+    border-radius: 30px;
     font-weight: bold;
 }
 
@@ -230,7 +234,7 @@ header nav {
 .fa-heart,
 .fa-dog {
     color: #0065FC;
-    font-size: 1.5em;
+    font-size: 18px;
 }
 
 
@@ -274,7 +278,6 @@ h3 {
 
 .titre_hebergements_a_marseille {
     margin: 0px;
-    ;
     font-size: large;
     margin-bottom: 21px;
 }
@@ -345,6 +348,7 @@ h3 {
 .hebergement_populaire_contenu h3 {
     font-weight: bold;
     font-style: normal;
+    
 }
 
 .hebergement_montrer_plus {
@@ -404,7 +408,7 @@ h3 {
 }
 
 .hebergement_populaire_contenu {
-    padding: 7px 0px 7px 20px;
+    padding: 7px 0px 7px 8px;
     display: flex;
     flex-direction: column;
 }
@@ -728,12 +732,12 @@ footer h2 {
         
         
     }
-    .hebergements-activites a:hover {
+    header nav .headernavlink1:hover,header nav .headernavlink2:hover{
         
         border-top: none;
         padding-top: 39px;          
         border-bottom: 3px solid #0065FC;
-        padding-bottom: 15px;
+        padding-bottom: 18px;
         margin-bottom: 10px;   
         }
 
