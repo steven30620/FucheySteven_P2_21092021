@@ -641,7 +641,7 @@ footer h2 {
     }
 
     .photo_hebergement{
-        width: 98%;
+        width: 98.5%;
         height: 200px;
         padding: 5px 5px 0px 5px;
         object-position: bottom;
@@ -764,7 +764,7 @@ footer h2 {
     .activite4,
     .activite5,
     .activite6 {
-        width: 90%;
+        width: 96%;
         height: 250px;
         margin-right: 20px;
     }
