@@ -920,7 +920,7 @@ footer h2 {
     }
 }
 
-@media all and (max-width:484px){
+@media all and (max-width:480px){
      /*partie hearder et nav*/
 
 
@@ -1104,6 +1104,8 @@ footer h2 {
         }
         
         .box_populaire_carte {
+            display: flex;
+            flex-direction: row;
             border: 3px solid white;
             border-radius: 20px;
             display: flex;
@@ -1116,7 +1118,7 @@ footer h2 {
         
         .photo_populaire {
             width: 210px;
-            height: 190px;
+            height: 220px;
             object-fit: cover;
             border-top-left-radius: 10px;
             border-bottom-left-radius: 10px;
@@ -1129,10 +1131,12 @@ footer h2 {
         }
         .titre_populaire_contenu h3{        
             font-size: 25px;
+            width: 130%;
         }
 
         .prix_populaire_contenu p{
             font-size: 25px;
+            width: 130%;
         }
 
 
@@ -1146,7 +1150,7 @@ footer h2 {
         }
         
         .hebergement_notation_populaire {
-           width: 100%;
+            width: 150%;
            height: 45px;
         }
 
