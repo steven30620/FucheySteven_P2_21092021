@@ -938,10 +938,8 @@ footer h2 {
 @media all and (max-width:484px){
      /*partie hearder et nav*/
 
-    html{
-        zoom: -10%;
-    }
-    .container{
+        
+      .container{
          width: 484px;
     }
 
@@ -1076,7 +1074,8 @@ footer h2 {
         flex-direction: column;
         align-items: flex-start;
         flex-wrap: wrap;
-        width: 100%;
+        width: 100%    
+        ;
     }
 
     #filtres-section p{
