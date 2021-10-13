@@ -1291,3 +1291,10 @@ footer h2 {
         padding-left: 10px;
     }
 }
+
+@media all and (max-width: 380px){
+
+    *{
+        zoom: 100.5%;
+    }
+}
