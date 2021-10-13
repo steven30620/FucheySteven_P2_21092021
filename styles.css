@@ -938,6 +938,9 @@ footer h2 {
 @media all and (max-width:484px){
      /*partie hearder et nav*/
 
+    html{
+        zoom: -10%;
+    }
     .container{
          width: 484px;
     }
