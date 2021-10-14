@@ -1617,7 +1617,8 @@ footer h2 {
            .hebergement_notation_populaire {
                width: 100%;
                margin-left: 10px;
-               padding-top: 35%;
+               
+               padding-bottom: 50%;
            }
            
            .hebergement_notation_populaire i,.hebergement_notation .fas{
