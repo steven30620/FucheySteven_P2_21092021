@@ -1205,8 +1205,12 @@ footer h2 {
         .hebergement_notation_populaire {
             width: 100%;
             margin-left: 10px;
-            padding-top: 25px;
+            padding-top: 40px;
             
+        }
+
+        .hebergement_notation_populaire2{
+            padding-top: 40px;
         }
 
         .hebergement_notation_populaire i,.hebergement_notation .fas{
@@ -1300,7 +1304,7 @@ footer h2 {
     .activite4,
     .activite5,
     .activite6 {
-        width: 96%;
+        width: 100%;
         height: 260px;
         
     }
@@ -1349,34 +1353,408 @@ footer h2 {
 
 @media all and (max-width:370px) {
 
-    html
-    {
-        zoom: 70%;
-    }
+        /*partie hearder et nav*/
 
-    .titre_populaire_contenu{
-        width: 150px;
-    }
+        
+        .container{
+            width: 100%;
+            margin: 0px;
+            zoom: 60%;
+       }
+   
+       
+       header {
+           position: relative;
+           margin-bottom: 50px;
+       }
+   
+   
+       
+   
+       #logo{
+           margin-bottom: 20px;
+           margin-left: 15px;
+       }
+   
+   
+       .headersignup{
+           margin-bottom: 20px;
+           margin-right: 25px;
+           font-size: 20px;
+   
+       }
+   
+       .titre_trouvez{
+           margin-left: 50px;
+           width: 85%;        
+       }
+   
+       .titre_trouvez h1{
+            font-size: 25px;
+       }
+   
+       .titre_enplein p{
+           font-size: 18px;
+           font-weight:lighter;
+           margin-left: 50px;
+           font-size: 20px;
+       }
+   
+   
+       .hebergements-activites {
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           width: 100%;     
+           border-bottom: 3px solid #F2F2F2;
+           display: flex;
+                         
+       }
+   
+       .hebergements-activites a{
+           margin-right: 0px;
+           font-size: 25px;
+           margin-bottom: 19px;
+       }
+   
+       header nav a:hover{
+           text-decoration: none;
+           }  
+       
+       .headernavlink1,.headernavlink2{
+           display: flex;
+           justify-content: center;        
+           width: 100%;
+           margin: 0px;                             
+       }
+       
+       header nav .headernavlink1:hover,header nav .headernavlink2:hover{
+               
+           border-top: none;
+           padding-top: 0px;          
+           border-bottom: 3px solid #0065FC;
+           padding-bottom: 0px;
+           margin-bottom: -3px;   
+       }
+           
     
-    .hebergement_notation_populaire{
-        margin:0;
-        padding:0px;
-    }
-
-    .photo_populaire{
-        width: 195px;
-    }
-
-    .photo_populaire3{
-        width: 300px;
-    }
-
-    .petit_texte_footer h4{
-        width: 380px;
-    }
-
-
-
+        /* partie searchbar */
+       .search{
+           height: 30px;
+       }
+    
+       .rechercher {
+           display: none;
+       }
+    
+       .rechercher_loupe {
+           display:unset;
+           width: 60px;
+           background-color: #0065FC;
+           color: white;
+           font-weight: bold;
+           border: none;
+           border-radius: 15px 15px 15px 15px;
+           
+       }
+        
+       input{
+           border: none;
+           width: 300px;
+       }
+   
+       ::placeholder{
+           font-size: 20px;
+           padding-left: 30px;
+       }
+   
+       #search-section{
+           border: 1px solid #F2F2F2;
+           margin-left: 10%;
+           height: 60px;
+           width: 414px;
+           border-radius: 15px 15px 15px 15px  ;
+       }
+   
+       .gps-logo{
+           height: 60px;
+       }
+   
+   
+       .rechercher_loupe .fas {
+           color: white;
+       }
+       /* partie filtres */
+   
+       .titre_filtres h2{
+           margin-bottom: 10px;
+           margin-left: 15px;  
+           font-size: 25px;     
+       }
+       #filtres-section {
+           margin-left: 35px;
+           display: flex;
+           flex-direction: column;
+           align-items: flex-start;
+           flex-wrap: wrap;
+           width: 92%    
+           ;
+       }
+   
+       #filtres-section p{
+           font-size: 25px;
+   
+       }    
+       .filtre-bouton{
+           margin-bottom: 15px;
+       }
+             
+       .partie_info{
+           width: 95%;
+           padding-top: 10px;
+   
+       }
+   
+       .nombre_logements{
+           margin: 0px 0px 60px 1px;
+       }
+       .partie_info h3{
+           font-size: 23px;
+       }
+       
+           /* partie populaires */
+   
+           .titre_les_plus_populaires {
+               display: flex;
+               justify-content: space-between;
+               font-size: 28px;
+               margin-bottom: 25px;
+               font-weight: bolder;
+           }
+           
+           .titre_les_plus_populaires .fas{ 
+               color: black;
+               padding-right: 50px;
+            }
+   
+   
+           #hebergement{
+               width: 100%;
+               margin:0px;
+               padding:0px;
+           }
+   
+           #container_hebergements_populaires {
+               background-color: #f2f2f2;    
+               border-radius: 0px;            
+               margin: 0px;
+               width: 95%;  
+               padding-right: 0px;   
+               margin-right: 0px;       
+           }
+           
+           .hebergement_les_plus_populaires {
+               display: flex;
+               flex-direction: column;
+               justify-content: flex-start;
+           }
+           
+   
+           .box_populaire_carte {
+               display: flex;
+               flex-direction: row;
+               border: 3px solid white;
+               border-radius: 20px;
+               display: flex;
+               background-color: white;
+               padding: 6px 58px 6px 6px;
+               width: 78%;
+               max-height: 200px;
+               margin-bottom: 29px;
+           }
+           
+           .photo_populaire {
+               width: 200px;
+               height: 200px;
+               object-fit: cover;
+               border-top-left-radius: 10px;
+               border-bottom-left-radius: 10px;
+           }
+           .photo_populaire3{
+               width: 300px;
+           }
+           
+           .hebergement_populaire_contenu {
+               padding: 7px 0px 7px 8px;
+               display: flex;
+               flex-direction: column;
+           }
+           .titre_populaire_contenu h3{        
+               font-size: 22px;
+               width: 120%;
+           }
+   
+           .prix_populaire_contenu p{
+               font-size: 20px;
+               width:110%;
+           }
+   
+           .titre_populaire_contenu {
+               padding-bottom: 5px;            
+               margin-left: 10px;
+           }
+           
+           .prix_populaire_contenu {
+               padding-bottom: 30px;
+               margin-left: 10px;
+               margin-bottom: 10px;
+           }
+           
+           .hebergement_notation_populaire {
+               width: 100%;
+               margin-left: 10px;
+               padding-top: 20px;
+               
+           }
+           .hebergement_notation_populaire2{
+               padding-top: 45px;
+           }
+           .hebergement_notation_populaire i,.hebergement_notation .fas{
+               zoom: 140%;
+               
+           }   
+            /* partie hebergement */
+   
+       .titre_hebergements_a_marseille{
+           font-size: 30px;
+           width: 100%;
+   
+       }
+   
+       #hebergements_a_marseille {
+           
+   
+           background: transparent;
+           width: 100%;
+           align-items: flex-start;
+           
+       }     
+   
+       .container_item{
+           display: block;
+           flex-direction: column;
+           width: 100%;
+       }
+   
+       .box_carte{
+           display: block; 
+           width: 98%;      
+           box-shadow: 0 0 20px #0000002e;
+           background:#FFFFFF;
+           padding: 0px 0px 1px 0px;
+           border-top-left-radius: 20px;
+           border-top-right-radius: 20px;  
+       } 
+   
+       .photo_hebergement{
+               width: 98%;
+               height: 200px;
+               padding: 5px 5px 0px 5px;
+               object-position: center;
+               border-top-left-radius: 20px;
+               border-top-right-radius: 20px;
+       }
+   
+       
+       
+       .box_carte h3{
+           font-size: 25px;
+       }
+   
+       .box_carte p{
+           font-size: 23px;
+       }
+   
+       
+      
+       .hebergement_montrer_plus p{
+           font-size: 25px;
+       }
+   
+       /* partie activités */
+          
+       #Activités_à_Marseille {
+           margin-left: 60px;
+           width: 80%;
+       }
+   
+       .titre_activites  {
+           font-size: 30px;
+           font-weight: bold;
+           padding-left: 3px;
+       }
+       
+       .photo_activite11,
+       .photo_activite22,
+       .photo_activite33,
+       .photo_activite44,
+       .photo_activite55,
+       .photo_activite66 {
+           width: 100%;
+           height: 200px;
+       }
+   
+       .activite1,
+       .activite2,
+       .activite3,
+       .activite4,
+       .activite5,
+       .activite6 {
+           width: 100%;
+           height: 260px;
+           
+       }
+   
+       #Activités_à_Marseille h2{
+           font-size: 25px;
+       }    
+   
+       .activites {
+           display: flex;
+           flex-direction: column;
+          width: 98%;
+          margin-right: 0px;
+       }
+   
+   
+       /* partie footer */                 
+             
+       footer{
+           display: flex;
+           flex-direction: column;
+           width: 87%;
+       }
+       footer h2{
+           font-size: 30px;
+       }
+   
+       footer h4{
+           font-size:25px        
+       }
+       .nos_hebergements,
+       .assistance, .a_propos{
+           margin-top: 5px;
+           width: 80% ;
+           margin-bottom: 50px;
+       }
+   
+   
+       .petit_texte_footer h4{
+           padding-left: 10px;
+           width:450px
+           ;
+       }
+   
 }
 
 
