@@ -617,7 +617,7 @@ footer h2 {
 
 
 
-@media all and (min-width: 485px) and (max-width: 1850px){
+@media all and (min-width: 485px) and (max-width: 1849px){
         /*partie hearder et nav*/
     
 
@@ -1205,7 +1205,7 @@ footer h2 {
         .hebergement_notation_populaire {
             width: 100%;
             margin-left: 10px;
-            padding-top: 0px;
+            padding-top: 35px;
             
         }
 
@@ -1341,7 +1341,7 @@ footer h2 {
 
     .petit_texte_footer h4{
         padding-left: 10px;
-        width:400px
+        width:450px
         ;
     }
 }
