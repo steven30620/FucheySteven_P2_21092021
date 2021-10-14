@@ -1026,7 +1026,7 @@ footer h2 {
         padding-top: 0px;          
         border-bottom: 3px solid #0065FC;
         padding-bottom: 0px;
-        margin-bottom: 0px;   
+        margin-bottom: -3px;   
     }
         
  
@@ -1312,7 +1312,8 @@ footer h2 {
     .activites {
         display: flex;
         flex-direction: column;
-       width: 100%;
+       width: 98%;
+       margin-right: 0px;
     }
 
 
