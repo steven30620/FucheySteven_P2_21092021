@@ -1593,7 +1593,11 @@ footer h2 {
                font-size: 22px;
                width: 120%;
            }
-   
+           
+           .prix_populaire_contenu{
+            height: 0%
+            ;
+           }
            .prix_populaire_contenu p{
                font-size: 20px;
                width:110%;
@@ -1613,12 +1617,9 @@ footer h2 {
            .hebergement_notation_populaire {
                width: 100%;
                margin-left: 10px;
-               padding-top: 20px;
-               
+               padding-top: 35%;
            }
-           .hebergement_notation_populaire2{
-               padding-top: 45px;
-           }
+           
            .hebergement_notation_populaire i,.hebergement_notation .fas{
                zoom: 140%;
                
