@@ -619,10 +619,11 @@ footer h2 {
 
 @media all and (min-width: 485px) and (max-width: 1850px){
         /*partie hearder et nav*/
-
+    
 
     .container{
         width: 100%;
+        margin: 0px;
     }
    
 
@@ -1299,7 +1300,7 @@ footer h2 {
     .activite4,
     .activite5,
     .activite6 {
-        width: 435px;
+        width: 445px;
         height: 260px;
         
     }
@@ -1320,7 +1321,7 @@ footer h2 {
     footer{
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 87%;
     }
     footer h2{
         font-size: 30px;
@@ -1335,6 +1336,7 @@ footer h2 {
     }
     .petit_texte_footer{
         padding-left: 10px;
+        width: 99%;
     }
 }
 
