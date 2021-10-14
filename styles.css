@@ -609,7 +609,7 @@ footer h2 {
 /*Responsive*/
 @media all and (min-width: 1850px) and (max-width: 2000px){
     html
-    {margin-left: 200px;
+    {margin-left: 250px;
      margin-right: 300px;
     }
 }
@@ -619,6 +619,7 @@ footer h2 {
 
 @media all and (min-width: 485px) and (max-width: 1850px){
         /*partie hearder et nav*/
+
 
     .container{
         width: 100%;
@@ -631,9 +632,7 @@ footer h2 {
     }
 
 
-    h1{
-        font-size: 20px;
-    }
+   
 
     #logo{
         margin-bottom: 20px;
@@ -672,21 +671,21 @@ footer h2 {
         text-decoration: none;
         }  
     
-        .headernavlink1,.headernavlink2{
-            display: flex;
-            justify-content: center;        
-            width: 100%;
-            margin: 0px;                             
-        }
+    .headernavlink1,.headernavlink2{
+        display: flex;
+        justify-content: center;        
+        width: 100%;
+        margin: 0px;                             
+    }
     
-        header nav .headernavlink1:hover,header nav .headernavlink2:hover{
+    header nav .headernavlink1:hover,header nav .headernavlink2:hover{
             
-            border-top: none;
-            padding-top: 39px;          
-            border-bottom: 3px solid #0065FC;
-            padding-bottom: 15px;
-            margin-bottom: 13px;   
-            }
+        border-top: none;
+        padding-top: 39px;          
+        border-bottom: 3px solid #0065FC;
+        padding-bottom: 15px;
+        margin-bottom: 13px;   
+    }
     
     
 
@@ -949,79 +948,86 @@ footer h2 {
 
         
       .container{
-         width: 484px;
+         width: 100%;
+         margin: 0px;
+         zoom: 80%;
     }
 
     
     header {
         position: relative;
         margin-bottom: 50px;
-        width: 128.5%;
     }
-      
+
+
     
-    .hebergements-activites {
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        position: absolute;
-        display: flex;
-        border-bottom: 3px solid #F2F2F2;
-        padding-bottom: 20px;
-        height: 40px;
-        align-items: center;       
-        
-    }
 
     #logo{
-        
-        margin-bottom: 30px;
-        margin-left: 30px;        
-        margin-bottom: 30px;
-    }
- 
- 
-    .headersignup{
-        margin-bottom: 45px;
-        margin-right: 40px;
+        margin-bottom: 20px;
+        margin-left: 15px;
     }
 
-    nav a{
-        font-size: 22px;
-        font-weight: bold;
+
+    .headersignup{
+        margin-bottom: 20px;
+        margin-right: 25px;
+        font-size: 20px;
+
     }
-    
+
+    .titre_trouvez{
+        margin-left: 50px;
+        width: 85%;        
+    }
+
     .titre_trouvez h1{
-        margin-left: 10%;
-        font-size: 27px;
-        width: 98%;
+         font-size: 25px;
     }
 
     .titre_enplein p{
-        font-size: 23px;
-        margin-left: 10%;
-    }  
- 
+        font-size: 18px;
+        font-weight:lighter;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+
+    .hebergements-activites {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;     
+        border-bottom: 3px solid #F2F2F2;
+        display: flex;
+                      
+    }
+
+    .hebergements-activites a{
+        margin-right: 0px;
+        font-size: 25px;
+        margin-bottom: 19px;
+    }
+
     header nav a:hover{
         text-decoration: none;
-    }  
-     
+        }  
+    
     .headernavlink1,.headernavlink2{
         display: flex;
         justify-content: center;        
-        width:100%;
+        width: 100%;
         margin: 0px;                             
     }
-     
+    
     header nav .headernavlink1:hover,header nav .headernavlink2:hover{
-             
+            
         border-top: none;
-        padding-top: 39px;          
+        padding-top: 0px;          
         border-bottom: 3px solid #0065FC;
-        padding-bottom: 20px;
-        margin-bottom: 10px;   
+        padding-bottom: 0px;
+        margin-bottom: 0px;   
     }
-     
+        
  
      /* partie searchbar */
     .search{
@@ -1045,7 +1051,7 @@ footer h2 {
      
     input{
         border: none;
-        width: 380px;
+        width: 300px;
     }
 
     ::placeholder{
@@ -1055,11 +1061,10 @@ footer h2 {
 
     #search-section{
         border: 1px solid #F2F2F2;
-        
         margin-left: 10%;
         height: 60px;
-        width: 400px;
-        border-radius: 15px 0px 0px 30px  ;
+        width: 414px;
+        border-radius: 15px 15px 15px 15px  ;
     }
 
     .gps-logo{
@@ -1083,7 +1088,7 @@ footer h2 {
         flex-direction: column;
         align-items: flex-start;
         flex-wrap: wrap;
-        width: 100%    
+        width: 92%    
         ;
     }
 
@@ -1125,7 +1130,7 @@ footer h2 {
 
 
         #hebergement{
-            width: 128.5%;
+            width: 100%;
             margin:0px;
             padding:0px;
         }
@@ -1134,7 +1139,7 @@ footer h2 {
             background-color: #f2f2f2;    
             border-radius: 0px;            
             margin: 0px;
-            width: 100%;  
+            width: 91%;  
             padding-right: 0px;   
             margin-right: 0px;       
         }
@@ -1155,13 +1160,13 @@ footer h2 {
             background-color: white;
             padding: 6px 58px 6px 6px;
             width: 80%;
-            max-height: 400px;
+            max-height: 200px;
             margin-bottom: 29px;
         }
         
         .photo_populaire {
-            width: 240px;
-            height: 270px;
+            width: 200px;
+            height: 200px;
             object-fit: cover;
             border-top-left-radius: 10px;
             border-bottom-left-radius: 10px;
@@ -1176,24 +1181,24 @@ footer h2 {
             flex-direction: column;
         }
         .titre_populaire_contenu h3{        
-            font-size: 25px;
-            width: 100%;
+            font-size: 23px;
+            width: 120%;
         }
 
         .prix_populaire_contenu p{
-            font-size: 23px;
-            width: 100%;
+            font-size: 21px;
+            width:110%;
         }
 
         .titre_populaire_contenu {
-            padding-bottom: 14px;            
+            padding-bottom: 5px;            
             margin-left: 10px;
         }
         
         .prix_populaire_contenu {
             padding-bottom: 30px;
             margin-left: 10px;
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
         
         .hebergement_notation_populaire {
@@ -1232,7 +1237,7 @@ footer h2 {
 
     .box_carte{
         display: block; 
-        width: 100%;      
+        width: 98%;      
         box-shadow: 0 0 20px #0000002e;
         background:#FFFFFF;
         padding: 0px 0px 1px 0px;
@@ -1241,7 +1246,7 @@ footer h2 {
     } 
 
     .photo_hebergement{
-            width: 99%;
+            width: 98%;
             height: 200px;
             padding: 5px 5px 0px 5px;
             object-position: center;
@@ -1269,7 +1274,7 @@ footer h2 {
        
     #Activités_à_Marseille {
         margin-left: 60px;
-        width: 100%;
+        width: 85%;
     }
 
     .titre_activites  {
@@ -1294,7 +1299,7 @@ footer h2 {
     .activite4,
     .activite5,
     .activite6 {
-        width: 500px;
+        width: 410px;
         height: 260px;
         
     }
@@ -1306,6 +1311,7 @@ footer h2 {
     .activites {
         display: flex;
         flex-direction: column;
+       width: 100%;
     }
 
 
@@ -1314,7 +1320,7 @@ footer h2 {
     footer{
         display: flex;
         flex-direction: column;
-        width: 114%;
+        width: 86%;
     }
     footer h2{
         font-size: 30px;
