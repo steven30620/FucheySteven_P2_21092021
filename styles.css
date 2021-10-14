@@ -1160,7 +1160,7 @@ footer h2 {
             display: flex;
             background-color: white;
             padding: 6px 58px 6px 6px;
-            width: 79%;
+            width: 78%;
             max-height: 200px;
             margin-bottom: 29px;
         }
@@ -1210,7 +1210,7 @@ footer h2 {
         }
 
         .hebergement_notation_populaire i,.hebergement_notation .fas{
-            zoom: 150%;
+            zoom: 140%;
             
         }   
          /* partie hebergement */
@@ -1347,6 +1347,36 @@ footer h2 {
 }
 
 
+@media all and (max-width:370px) {
 
+    html
+    {
+        zoom: 70%;
+    }
+
+    .titre_populaire_contenu{
+        width: 150px;
+    }
+    
+    .hebergement_notation_populaire{
+        margin:0;
+        padding:0px;
+    }
+
+    .photo_populaire{
+        width: 195px;
+    }
+
+    .photo_populaire3{
+        width: 300px;
+    }
+
+    .petit_texte_footer h4{
+        width: 380px;
+    }
+
+
+
+}
 
 
