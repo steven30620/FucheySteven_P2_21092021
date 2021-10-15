@@ -1579,7 +1579,8 @@ footer h2 {
                border-bottom-left-radius: 10px;
            }
            .photo_populaire3{
-               width: 55%;
+               width: 60%;
+               height: 200px;
            }
            
            .hebergement_populaire_contenu {
@@ -1613,9 +1614,9 @@ footer h2 {
            }
            
            .hebergement_notation_populaire {
-               width: 100%;
+               width: 70%;
                margin-left: 10px;               
-               padding-top: 35%;
+               padding-top: 25%;
            }
            
            .hebergement_notation_populaire i,.hebergement_notation .fas{
