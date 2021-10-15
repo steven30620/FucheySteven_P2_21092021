@@ -1590,7 +1590,7 @@ footer h2 {
            }
            .titre_populaire_contenu h3{        
                font-size: 25px;
-               width: 120%;
+               width: 150%;
            }
            
            .prix_populaire_contenu{
@@ -1599,7 +1599,7 @@ footer h2 {
            }
            .prix_populaire_contenu p{
                font-size: 23px;
-               width:110%;
+               width:150%;
            }
    
            .titre_populaire_contenu {
