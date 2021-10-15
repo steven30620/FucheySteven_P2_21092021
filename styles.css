@@ -1349,7 +1349,7 @@ footer h2 {
 }
 
 
-@media all and (max-width:370px) {
+@media all and (max-width:380px){
 
         /*partie hearder et nav*/
 
@@ -1357,7 +1357,7 @@ footer h2 {
         .container{
             width: 100%;
             margin: 0px;
-            zoom: 60%;
+            zoom: 50%;
        }
    
        
@@ -1579,7 +1579,7 @@ footer h2 {
                border-bottom-left-radius: 10px;
            }
            .photo_populaire3{
-               width: 60%;
+               width: 45%;
                height: 200px;
            }
            
@@ -1589,7 +1589,7 @@ footer h2 {
                flex-direction: column;
            }
            .titre_populaire_contenu h3{        
-               font-size: 22px;
+               font-size: 25px;
                width: 120%;
            }
            
@@ -1598,7 +1598,7 @@ footer h2 {
             ;
            }
            .prix_populaire_contenu p{
-               font-size: 20px;
+               font-size: 23px;
                width:110%;
            }
    
