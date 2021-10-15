@@ -1209,9 +1209,7 @@ footer h2 {
             
         }
 
-        .hebergement_notation_populaire2{
-            padding-top: 40px;
-        }
+        
 
         .hebergement_notation_populaire i,.hebergement_notation .fas{
             zoom: 140%;
@@ -1581,7 +1579,7 @@ footer h2 {
                border-bottom-left-radius: 10px;
            }
            .photo_populaire3{
-               width: 300px;
+               width: 55%;
            }
            
            .hebergement_populaire_contenu {
@@ -1616,9 +1614,8 @@ footer h2 {
            
            .hebergement_notation_populaire {
                width: 100%;
-               margin-left: 10px;
-               
-               padding-bottom: 50%;
+               margin-left: 10px;               
+               padding-top: 35%;
            }
            
            .hebergement_notation_populaire i,.hebergement_notation .fas{
