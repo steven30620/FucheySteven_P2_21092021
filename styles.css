@@ -1572,14 +1572,14 @@ footer h2 {
            }
            
            .photo_populaire {
-               width: 200px;
+               width: 180px;
                height: 200px;
                object-fit: cover;
                border-top-left-radius: 10px;
                border-bottom-left-radius: 10px;
            }
            .photo_populaire3{
-               width: 45%;
+               width: 40%;
                height: 200px;
            }
            
